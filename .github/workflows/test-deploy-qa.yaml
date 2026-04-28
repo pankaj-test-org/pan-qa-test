@@ -29,6 +29,6 @@ jobs:
           id: register-deployed-artifact
           with:
             cloudbees-url: "https://api.saas-qa.beescloud.com"
-            target-environment: "Production"
+            target-environment: "QA"
             artifact-id: ${{ steps.register-build-artifact.outputs.cbp_artifact_id }}
             labels: "test"  
