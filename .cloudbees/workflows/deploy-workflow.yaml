@@ -1,10 +1,11 @@
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: workflow
 name: My workflow
+# Workflow disabled - uncomment push trigger to re-enable
 on:
-  push:
-    branches:
-      - "**"
+  # push:
+  #   branches:
+  #     - "**"
   workflow_dispatch:
 jobs:
   deploy:
