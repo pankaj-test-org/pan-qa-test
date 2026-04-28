@@ -18,5 +18,5 @@ jobs:
         kind: deploy
         with:
           artifact-id: ec0d4239-3679-4661-b11f-7633b86bd5a4
-          target-environment: PREPROD
+          target-environment: QA
         uses: cloudbees-io/register-deployed-artifact@v2
